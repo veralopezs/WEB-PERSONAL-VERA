@@ -1,0 +1,510 @@
+/*font face*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    
+    scroll-behavior: smooth;
+  }
+
+footer{
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  border-top: .5px solid white;
+}
+
+footer p{
+  text-align: center;
+  color: white;
+  font-family: Mangsi;
+  padding: .5%;
+  background-color: #e24b26;
+}
+
+.footer-port p{
+  background-color: #191919;
+}
+
+.footer-bio{
+  position: relative;
+}
+
+
+
+.background-color-index{
+    width: 100%;
+    overflow-y: hidden;
+    background-color: #e24b26;
+}
+
+.background-color-bio{
+    width: 100%;
+    background-color: #e24b26;
+}
+
+  .topnav {
+    background-color: #e24b26;
+    display: flex;
+    height: 3.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: .5px solid white;
+    z-index: 1;
+  }
+
+
+  .sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+  ul{
+    padding-top: .6%;
+  }
+
+  .nav-item a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+  }
+
+  .nav-item a:hover{
+    color: #191919;
+    cursor: pointer;
+  }
+
+  .black a:hover{
+    color: #e24b26;
+  }
+
+  p.smiley {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li {
+    margin-right: 35px;
+  }
+
+  .nav-item {
+    /*margin-left: 20%;*/
+    font-size: 20px;
+    font-family: Mangsi;
+  }
+
+  .center-text {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    /*border: 2px solid black;*/
+  }
+
+  .h1-class {
+    font-size: 350px;
+    margin-bottom: -80px;
+    font-family: Allenoire Free Personal;
+    color: #efa2c6;
+  }
+
+  .name {
+    /*display: flex;
+    flex-direction: row;*/
+    text-align: center;
+    font-size: 7.4rem;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: Mangsi;
+    color: #efa2c6;
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .different-font-name {
+    font-family: Allenoire Free Personal;
+    color: #efa2c6;
+  }
+
+  .different-font-name a{
+    text-decoration: none;
+    color: #efa2c6;
+  }
+
+  .different-font-name:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .different-font-name:hover a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  } 
+
+  /****************** CSS BIOGRAFIA *****************/
+
+  .container-flex-bio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 9% 7%;
+    margin-left: 15%;*/
+    margin: 10% 0;
+  }
+
+  .margin-flex{
+    padding-left: 35px;
+  }
+
+  .bio-title{
+    color: white;
+    font-size: 150px;
+    margin-bottom: 30px;
+    font-family: Allenoire Free Personal;
+    position: relative;
+    right: 80px;
+    z-index: 0;
+  }
+
+  .container-row{
+    display: flex;
+    justify-content: center;
+  }
+
+  .row p{
+    font-size: 40px;
+    font-family: Allenoire Free Personal;
+  }
+
+  .row-reverse p{
+    font-size: 40px;
+    font-family: Allenoire Free Personal;
+  }
+
+  .copy-bio{
+    text-align: left;
+    font-size: 20px;
+    font-family: Mangsi;
+
+  }
+
+  .row-left{
+    width: 40%;
+  }
+
+  .row-text{
+    margin-left: 3%;
+    padding-top: 5px;
+    border-left: 1px solid #191919;
+    padding-left: 2%;
+  }
+
+  .container-reverse-flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+  }
+
+  .container-row-margin-top{
+    margin: 4% 0 4% 5%;
+
+  }
+
+  .row-text-reverse{
+    margin-right: 3%;
+    padding-top: 5px;
+    border-right: 1px solid #191919;
+    padding-right: 2%;
+  }
+
+  .margin-bottom-rev{
+    margin-bottom: 8%;
+  }
+
+  .margin-bottom{
+    margin-bottom: 5%;
+  }
+
+  .h2-bio{
+    font-size: 20px;
+    font-family: Allenoire Free Personal;
+  }
+
+  .h2-bio-reverse{
+    font-size: 20px;
+    font-family: Allenoire Free Personal;
+    text-align: right;
+  }
+
+  .h3-bio{
+    font-size: 20px;
+    font-family: Nexa Light;
+    text-align: left;
+    padding-top: 2%;
+  }
+
+  .h3-bio-reverse{
+    font-size: 20px;
+    font-family: Nexa Light;
+    text-align: left;
+    padding-top: 2%;
+    text-align: right;
+  }
+
+  .p-bio{
+    font-size: 20px;
+    font-family: Nexa Light;
+    padding-top: 2%;
+  }
+
+  .p-bio-reverse{
+    font-size: 20px;
+    font-family: Nexa Light;
+    padding-top: 2%;
+    text-align: right;
+  }
+
+  /****************** CSS PORTFOLIO *****************/
+
+  .topnav-portfolio{
+    background-color: #191919;
+  }
+
+  .body-porfolio{
+    background-color: #191919;
+  }
+
+  .h1-portfolio{
+    color: #e24b26;
+    font-size: 200px;
+    font-family: Allenoire Free Personal;
+    position: relative;
+    top: 170px;
+    left: 120px;;
+    z-index: 100;
+    width: 50%;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 400px;
+    /*background-color: beige;*/
+    gap: 20px;
+    margin-top: 5%;
+
+  }
+
+
+  a img{
+    /*grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: center;*/
+    border-radius: 10px;
+    /*background-image: url("../images/portfolio-img_01.jpg");*/
+    background-size: cover;
+    /*background-color: #191919;*/
+    width: 400px;
+    height: 400px;
+    
+  }
+
+
+  .grid-item1:hover{
+    background-image: url("../images/portfolio-img_01-hover.jpg");
+    background-size: cover;
+    cursor: pointer;
+  }
+
+
+.grid-item2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url("../images/portfolio-img_02.jpg");
+    background-size: cover;
+    background-color: #191919;
+  }
+
+  .grid-item2:hover{
+    background-image: url("../images/portfolio-img_02-hover.jpg");
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .grid-item3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url("../images/portfolio-img_03.jpg");
+    background-size: cover;
+    background-color: #191919;
+  }
+
+  .grid-item3:hover{
+    background-image: url("../images/portfolio-img_03-hover.jpg");
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .grid-item4{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url("../images/portfolio-img_04.jpg");
+    background-size: cover;
+    background-color: #191919;
+  }
+
+  .grid-item4:hover{
+    background-image: url("../images/portfolio-img_04-hover.jpg");
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .margin-container{
+    margin: 8% 3.6%;
+  }
+
+
+
+  /****************** CSS CONTACTO *****************/
+
+  .form-container{
+    background-color: #efa2c6;
+    border-radius: 0 5px 5px 0;
+    width: 600px;
+    height: 600px;
+    padding: 60px;
+  }
+
+  .form-container-img{
+    width: 600px;
+    height: 600px;
+    border-radius: 5px 0 0 5px;
+    background-image: url("../mi-web-imgs_05.jpg");
+    background-size: cover;
+    z-index: 0;
+    background-color: white;
+  }
+
+  .form-left{
+    background-color: blue;
+    width: 600px;
+    height: 600px;
+  }
+
+  input[type=text]{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-family: Helvetica;
+    border-radius: 5px;
+    border: 0px;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-family: Helvetica;
+    border-radius: 5px;
+    border: 0px;
+  }
+
+  .form-text{
+    font-family: Allenoire Free Personal;
+    font-size: 15px;
+  }
+
+  .form-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 40vh;
+  }
+
+  input[type=text]:focus {
+    outline: none;
+  }
+
+  textarea:focus{
+    outline: none;
+  }
+
+  input[type=button]{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-family: Allenoire Free Personal;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  /**{
+    border: 2px solid black;
+  }*/
+
+  #h1-contacto{
+    color: #efa2c6;
+    font-size: 150px;
+    font-family: Allenoire Free Personal;
+    position: relative;
+    top: 20px;
+    left: 120px;
+  }
+
+  #h2-contacto{
+    color: #efa2c6;
+    font-size: 150px;
+    font-family: Allenoire Free Personal;
+    position: relative;
+    top: -20px;
+    left: 200px;
+    z-index: 1;
+  }
+
+  .color-contacto{
+    background-color: #e24b26;
+  }
+
+  .topnav-color{
+    background-color: #e24b26;
+  }
+
+  .height{
+    margin-bottom: 5%;
+  }
+
+ 
